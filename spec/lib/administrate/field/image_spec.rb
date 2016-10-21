@@ -1,3 +1,4 @@
+require "administrate"
 require "administrate/field/image"
 
 describe Administrate::Field::Image do

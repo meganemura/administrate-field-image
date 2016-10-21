@@ -1,12 +1,9 @@
 require "administrate/field/base"
-require "administrate/field/image/version"
-require "rails"
 
 module Administrate
   module Field
     class Image < Administrate::Field::Base
-      class Engine < ::Rails::Engine
-      end
+      VERSION = "0.0.2"
     end
   end
 end

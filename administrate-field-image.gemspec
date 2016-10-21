@@ -1,6 +1,6 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "administrate/field/image"
+require "administrate/field/image/version"
 
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-image"
